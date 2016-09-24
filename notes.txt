@@ -1,0 +1,9 @@
+sudo apt-get install vim-nox git
+(vim w/o python support)
+
+add vundle
+
+get new user into right groups
+fix /etc/ssh/sshd_config
+
+
