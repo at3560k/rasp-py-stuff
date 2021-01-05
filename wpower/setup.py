@@ -11,7 +11,10 @@ with open("HISTORY.rst") as history_file:
     history = history_file.read()
 
 requirements = [
-    "Click>=7.0",
+    # looks like typer does not declare >= 7.1 when it passes no_args_is_help
+    # to click every time.
+    "Click>=7.1",
+    "RPi.GPIO>=0.7.0",
     "typer",
 ]
 

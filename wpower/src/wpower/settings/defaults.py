@@ -1,0 +1,9 @@
+"""
+Defaults
+"""
+
+DEFAULT_BCM_ON = 19
+DEFAULT_BCM_OFF = 16
+
+# seconds
+DEFAULT_SWITCH_DURATION = 0.5
